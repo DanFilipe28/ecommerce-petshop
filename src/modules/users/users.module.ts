@@ -1,8 +1,8 @@
 // src/modules/users/users.module.ts
 import { Module } from '@nestjs/common';
 import { UserController } from './users.controller';
-import { UserService } from 'src/core/domain/services/user.service';
 import { RepositoriesModule } from '@core/domain/repositories/repositories.modules';
+import { UserService } from '@core/domain/services/users/user.service';
 
 @Module({
   imports: [RepositoriesModule],

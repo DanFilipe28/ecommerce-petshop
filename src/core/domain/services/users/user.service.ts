@@ -1,10 +1,10 @@
 // src/core/domain/services/user.service.ts
 import { Injectable, Inject } from '@nestjs/common';
-import { User } from '../models/user.model';
+import { User } from '../../models/user.model';
 import {
   USER_REPOSITORY,
   UserRepository,
-} from '../repositories/users/user.repository';
+} from '../../repositories/users/user.repository';
 
 @Injectable()
 export class UserService {
