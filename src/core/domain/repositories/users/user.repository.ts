@@ -1,5 +1,6 @@
 // src/core/domain/repositories/user.repository.ts
-import { User } from '../../models/user.model';
+
+import { User } from '@core/domain/models/user.model';
 
 export const USER_REPOSITORY = 'USER_REPOSITORY';
 
